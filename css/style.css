@@ -20,12 +20,30 @@ body {
 }
 
 .my-nav a:hover {
-	color: #710200;
+	color: #928283;
 }
 
 .jumbotron {
 	background-image: url("../img/restaurant1.jpg");
+	opacity: 20%;
 }
+
+.about-header {
+	background-image: url("../img/about1.jpg");
+	background-size: cover;
+}
+
+.menu-header {background-image: url("../img/food1.jpg");
+			background-size: cover;
+}
+
+.contact-header {background-image: url("../img/contact1.jpg");
+background-size: cover;
+}
+
+.card {background-color:#ece7e3; }
+
+.profile-pic {size: 60%}
 
 h1 {
 	text-align: center;
